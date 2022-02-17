@@ -3,7 +3,7 @@
 ### De Morgan's laws
 
 1. Equations of all three versions of logic function f(c,b,a):
-<img src="https://latex.codecogs.com/gif.image?\dpi{110}&space;\bg_blue&space;\begin{align*}&space;&space;&space;&space;f(c,b,a)_{\textup{ORG}}&space;=&~&space;\overline{b}\,a&space;&plus;&space;\overline{c}\,\overline{b}\\&space;&space;&space;&space;f(c,b,a)_{\textup{NAND}}&space;=&~&space;(\overline{b}\&space;&plus;&space;a\)\,\overline{c}\&space;\overline{b}\\&space;&space;&space;f(c,b,a)_{\textup{NOR}}&space;=&~&space;\overline{b}\,&space;a&space;\overline{c}\,&space;b\end{align*}" title="\bg_blue \begin{align*} f(c,b,a)_{\textup{ORG}} =&~ \overline{b}\,a + \overline{c}\,\overline{b}\\ f(c,b,a)_{\textup{NAND}} =&~ (\overline{b}\ + a\)\,\overline{c}\ \overline{b}\\ f(c,b,a)_{\textup{NOR}} =&~ \overline{b}\, a \overline{c}\, b\end{align*}" />
+<img src="https://latex.codecogs.com/gif.image?\dpi{110}&space;\bg_white&space;\begin{align*}&space;&space;&space;&space;f(c,b,a)_{\textup{ORG}}&space;=&~&space;\overline{b}\,a&space;&plus;&space;\overline{c}\,\overline{b}\\&space;&space;&space;&space;f(c,b,a)_{\textup{NAND}}&space;=&~&space;(\overline{b}\&space;&plus;&space;a\)\,\overline{c}\&space;\overline{b}\\&space;&space;&space;f(c,b,a)_{\textup{NOR}}&space;=&~&space;\overline{b}\,&space;a&space;\overline{c}\,&space;b\end{align*}" title="\bg_white \begin{align*} f(c,b,a)_{\textup{ORG}} =&~ \overline{b}\,a + \overline{c}\,\overline{b}\\ f(c,b,a)_{\textup{NAND}} =&~ (\overline{b}\ + a\)\,\overline{c}\ \overline{b}\\ f(c,b,a)_{\textup{NOR}} =&~ \overline{b}\, a \overline{c}\, b\end{align*}" />
 begin
     f_org_o  <= (not(b_i) and a_i) or (not(c_i) and not(b_i));
     f_nand_o <= (not(b_i) nand a_i) or (not(c_i) nand not(b_i));
