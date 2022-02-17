@@ -3,8 +3,7 @@
 ### De Morgan's laws
 
 1. Equations of all three versions of logic function f(c,b,a):
-[img[https://latex.codecogs.com/svg.image?\bg_white \begin{align*} f(c,b,a)_{\textup{ORG}} =&~ \overline{b}\,a + \overline{c}\,\overline{b}\\ f(c,b,a)_{\textup{NAND}} =&~ (\overline{b}\ + a\)\,\overline{c}\ \overline{b}\\ f(c,b,a)_{\textup{NOR}} =&~ \overline{b}\, a \overline{c}\, b\end{align*}]]```vhdl
-architecture dataflow of demorgan is
+\[\bg_white \begin{align*} f(c,b,a)_{\textup{ORG}} =&~ \overline{b}\,a + \overline{c}\,\overline{b}\\ f(c,b,a)_{\textup{NAND}} =&~ (\overline{b}\ + a\)\,\overline{c}\ \overline{b}\\ f(c,b,a)_{\textup{NOR}} =&~ \overline{b}\, a \overline{c}\, b\end{align*}\] 
 begin
     f_org_o  <= (not(b_i) and a_i) or (not(c_i) and not(b_i));
     f_nand_o <= (not(b_i) nand a_i) or (not(c_i) nand not(b_i));
