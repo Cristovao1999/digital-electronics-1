@@ -5,7 +5,8 @@
 1. Karnaugh maps for other two functions:
 
    Greater than:
-                     		  
+   
+| **c** | **b** |**a** | **f(c,b,a)_ORG** | **f(c,b,a)_NAND** | **f(c,b,a)_NOR** |
 | :-: | :-: | :-: | :-: | :-: | :-: |
 | 0 | 0 | 0 |  |  |  |
 | 0 | 0 | 1 |  |  |  |
