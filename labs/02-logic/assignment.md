@@ -12,10 +12,7 @@
 | 0 | 0 | 1 |  |  |  |
 | 0 | 1 | 0 |  |  |  |
 | 0 | 1 | 1 |  |  |  |
-| 1 | 0 | 0 |  |  |  |
-| 1 | 0 | 1 |  |  |  |
-| 1 | 1 | 0 |  |  |  |
-| 1 | 1 | 1 |  |  |  |
+
 
    Less than:
 
@@ -25,10 +22,7 @@
 | 0 | 0 | 1 |  |  |  |
 | 0 | 1 | 0 |  |  |  |
 | 0 | 1 | 1 |  |  |  |
-| 1 | 0 | 0 |  |  |  |
-| 1 | 0 | 1 |  |  |  |
-| 1 | 1 | 0 |  |  |  |
-| 1 | 1 | 1 |  |  |  |
+
                        
 
 2. Equations of simplified SoP (Sum of the Products) form of the "greater than" function and simplified PoS (Product of the Sums) form of the "less than" function.
